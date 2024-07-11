@@ -7,15 +7,16 @@ body {
 }
 
 .availability {
-    background-color: #225555;
-    color: aquamarine;
+    background-color: #F8BBD0;
+    color: #212121;
     text-align: center;
 }
 
 .card {
-    background-color: white;
+    background-color: #00BCD4;
 }
 
 .list-group-item {
-    background-color: aqua;
+    background-color: #E91E63;
 }
+
