@@ -1,61 +1,67 @@
-body {
-    --bs-body-bg: #212121;
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 33%;
-    gap: 2px;
-    justify-content: start;
-    max-width: 100%;
-    
-}
+@media (max-width: 480px) {
+    body {
+        --bs-body-bg: #212121;
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 33%;
+        gap: 2px;
+        justify-content: start;
+        max-width: 100%;
+    }
 
-.availability {
-    background-color: #F8BBD0;
-    color: #212121;
-    text-align: center;
-    font-family: "Cute Font", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.75em;
-    margin-top: auto;
-}
+    @media (max-width: 480px) {
+        .card-img-top {
+            flex: 1 21%;
+        }
+    }
 
-.card {
-    background-color: #00BCD4;
-    min-width: 350px;
-    height: 755px;
-    max-height: 100%;
-}
+    .availability {
+        background-color: #F8BBD0;
+        color: #212121;
+        text-align: center;
+        font-family: "Cute Font", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.75em;
+        margin-top: auto;
+    }
 
-.list-group-item {
-    background-color: #E91E63;
-    size
-}
+    .card {
+        background-color: #00BCD4;
+        min-width: 350px;
+        height: 755px;
+        max-height: 100%;
+    }
 
-p {
-    font-family: "Cute Font", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.75em;
-    text-shadow: 0 0 3px purple;
-}
+    .list-group-item {
+        background-color: #E91E63;
+    }
 
-.dirt {
-    position: relative;
-}
+    p {
+        font-family: "Cute Font", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.75em;
+        text-shadow: 0 0 3px purple;
+    }
 
-.image2 {
-    position: absolute;
-    left: -10px;
-    bottom: 68%;
-    width: 90%;
-    margin-bottom: auto;
-}
+    .dirt {
+        position: relative;
+    }
 
-.card-img-top {
-    height: 190px;
-}
+    .image2 {
+        position: absolute;
+        left: -10px;
+        bottom: 68%;
+        width: 90%;
+        margin-bottom: auto;
+    }
 
-h2 {
-    color: lavender;
+    .card-img-top {
+        height: 190px;
+    }
+
+    h2 {
+        color: lavender;
+    }
 }
