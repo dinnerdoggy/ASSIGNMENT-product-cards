@@ -1,5 +1,21 @@
 body {
-    --bs-body-bg: white;
+    --bs-body-bg: lightgrey;
     display: flex;
     flex-wrap: wrap;
+    justify-content: start;
+    gap: 30px;
+}
+
+.availability {
+    background-color: #225555;
+    color: aquamarine;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+}
+
+.list-group-item {
+    background-color: aqua;
 }
