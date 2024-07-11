@@ -22,10 +22,14 @@ body {
 
 .card {
     background-color: #00BCD4;
+    min-width: 350px;
+    height: 755px;
+    max-height: 100%;
 }
 
 .list-group-item {
     background-color: #E91E63;
+    size
 }
 
 p {
@@ -33,6 +37,7 @@ p {
     font-weight: 400;
     font-style: normal;
     font-size: 1.75em;
+    text-shadow: 0 0 3px purple;
 }
 
 .dirt {
@@ -42,8 +47,8 @@ p {
 .image2 {
     position: absolute;
     left: -10px;
-    bottom: 710px;
-    width: 100%;
+    bottom: 68%;
+    width: 90%;
     margin-bottom: auto;
 }
 
