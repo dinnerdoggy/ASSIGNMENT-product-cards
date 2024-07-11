@@ -31,3 +31,14 @@ p {
     font-style: normal;
     font-size: 1.75em;
 }
+
+.dirt {
+    position: relative;
+}
+
+.image2 {
+    position: absolute;
+    left: -10px;
+    bottom: 710px;
+    width: 100%;
+}
